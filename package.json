@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "vite"
   },
   "keywords": [],
